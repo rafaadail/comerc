@@ -1,0 +1,30 @@
+[class*="col-"], header, nav, aside, section, div[role="main"] {
+    padding-top: 15px;
+}
+
+.footer {
+    height: 90px;
+    background: #5052ad;
+}
+
+.text-green {
+    color: #5cf11a;
+}
+
+.text-white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #5052ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5cf11a;
+}
