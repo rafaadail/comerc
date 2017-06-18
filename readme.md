@@ -49,11 +49,11 @@ $ docker exec -i comerc_nginx_1 chmod 777 -R /var/www
 
 ### Entendendo
 
-1. Usei as cores principais da marcar para o projeto.
+1. Usei as cores principais da marca para o projeto.
 2. Resolvi usar o Widget do tempo.com, ao invés da API.
 3. Segmentei o blade para facilitar a manutenção do Layout, como é uma página simples, não separei os assets.
 4. Adicionei a diretiva de configuração de RSS para o config do Laravel, a fim deixar um código limpo, boas práticas.
-5. Se não quiser usar o Docker, só clonar o projeto, rodar o composer e criar um HOST no Nginx ou Apache que funciona.
+5. Se não quiser utilizar o Docker, só clonar o projeto, rodar o composer e criar um HOST no Nginx ou Apache que funciona.
 6. Feedbacks serão bem-vindos. Obrigado ;)
 
 OBS.: O link para consumir o RSS `http://www.panoramacomerc.com.br/?feed=rss2` está montando o XML com espaço em branco, o que acaba quebrando a formatação. Para conseguir consumir, eu usei `ltrim` e tive que armazenar antes o conteúdo com formatação irregular em uma `string` para conseguir transformar em um Objeto `SimplesXML`.
