@@ -58,4 +58,4 @@ $ docker exec -i comerc_nginx_1 chmod 777 -R /var/www
 
 OBS.: O link para consumir o RSS [http://www.panoramacomerc.com.br/?feed=rss2](http://www.panoramacomerc.com.br/?feed=rss2)
  está montando o XML com espaços em branco, o que acaba quebrando a formatação. Para conseguir consumir, eu usei `ltrim` e
- armazenei o conteúdo com formatação irregular em uma `string` para conseguir transformar em um Objeto `SimplesXML`.
+ armazenei o conteúdo com formatação irregular em uma `string` para conseguir transformar em um Objeto `SimpleXMLElement`.
