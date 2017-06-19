@@ -56,4 +56,6 @@ $ docker exec -i comerc_nginx_1 chmod 777 -R /var/www
 5. Se não quiser utilizar o Docker, só clonar o projeto, rodar o composer e criar um HOST no Nginx ou Apache que funciona.
 6. Feedbacks serão bem-vindos. Obrigado ;)
 
-OBS.: O link para consumir o RSS `http://www.panoramacomerc.com.br/?feed=rss2` está montando o XML com espaço em branco, o que acaba quebrando a formatação. Para conseguir consumir, eu usei `ltrim` e tive que armazenar antes o conteúdo com formatação irregular em uma `string` para conseguir transformar em um Objeto `SimplesXML`.
+OBS.: O link para consumir o RSS [http://www.panoramacomerc.com.br/?feed=rss2](http://www.panoramacomerc.com.br/?feed=rss2)
+ está montando o XML com espaços em branco, o que acaba quebrando a formatação. Para conseguir consumir, eu usei `ltrim` e
+ armazenei o conteúdo com formatação irregular em uma `string` para conseguir transformar em um Objeto `SimplesXML`.
